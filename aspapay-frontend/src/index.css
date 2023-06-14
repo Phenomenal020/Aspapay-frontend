@@ -1,0 +1,16 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+body,
+*,
+*:hover {
+  margin: 0;
+  padding: 0;
+}
