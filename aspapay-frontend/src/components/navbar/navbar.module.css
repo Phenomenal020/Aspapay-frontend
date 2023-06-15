@@ -1,0 +1,72 @@
+.navWrapper {
+  width: 100%;
+  max-width: 100vw;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left,
+.right {
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  color: #2a5885;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.middle {
+  padding: 4px;
+  display: flex;
+  gap: 16px;
+}
+
+.midBtn,
+.loginBtn,
+.signUpBtn {
+  width: fit-content;
+  padding: 8px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #4c4d4d;
+  transition: all 0.1s ease;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* background-color: #f9f9f9; */
+}
+
+.midBtnHref,
+.loginRef,
+.signUpRef {
+  color: #4c4d4d;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.8px;
+}
+
+.signUpBtn {
+  background-color: #2a5885;
+  border: none;
+}
+
+.signUpRef {
+  color: #fff;
+}
+
+.midBtn:hover,
+.signUpBtn:hover,
+.loginBtn:hover {
+  transform: scale(1.01);
+}
+/* 
+.downIcon {
+    font-size: 20px;
+} */
